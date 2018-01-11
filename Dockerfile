@@ -1,4 +1,4 @@
-FROM nginx:1.9.8
+FROM nginx:latest
 MAINTAINER colin.hom@coreos.com
 
 RUN rm -f /etc/nginx/conf.d/*.conf
